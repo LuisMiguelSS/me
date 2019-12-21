@@ -408,7 +408,7 @@
             if($next.hasClass('engine')){
                 $next = $next.closest('section').next();
             }
-            var offset = $next.offset();
+            var offset = $next.offset() - $next.height;
             $('html, body').stop().animate({
                 scrollTop: offset.top
             }, 800, 'linear');
