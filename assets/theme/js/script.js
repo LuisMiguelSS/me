@@ -1,3 +1,7 @@
+$(document).on('scroll', function() {
+    $('header>nav').toggleClass('bg-space', $(document).scrollTop() >= 200);
+});
+
 (function($) {
 
     var isBuilder = $('html').hasClass('is-builder');

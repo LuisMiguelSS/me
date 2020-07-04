@@ -109,70 +109,6 @@ body {
   border-color: #ffffff;
 }
 
-.text-primary {
-  color: #149dcc !important;
-}
-
-.text-secondary {
-  color: #ff3366 !important;
-}
-
-.text-success {
-  color: #f7ed4a !important;
-}
-
-.text-info {
-  color: #82786e !important;
-}
-
-.text-warning {
-  color: #879a9f !important;
-}
-
-.text-danger {
-  color: #b1a374 !important;
-}
-
-.text-white {
-  color: #ffffff !important;
-}
-
-.text-black {
-  color: #000000 !important;
-}
-
-a.text-primary:hover, a.text-primary:focus {
-  color: #0b566f !important;
-}
-
-a.text-secondary:hover, a.text-secondary:focus {
-  color: #cc0033 !important;
-}
-
-a.text-success:hover, a.text-success:focus {
-  color: #d2c609 !important;
-}
-
-a.text-info:hover, a.text-info:focus {
-  color: #4b453f !important;
-}
-
-a.text-warning:hover, a.text-warning:focus {
-  color: #55666b !important;
-}
-
-a.text-danger:hover, a.text-danger:focus {
-  color: #7a6e45 !important;
-}
-
-a.text-white:hover, a.text-white:focus {
-  color: #b3b3b3 !important;
-}
-
-a.text-black:hover, a.text-black:focus {
-  color: #4d4d4d !important;
-}
-
 .alert-success {
   background-color: #70c770;
 }
@@ -187,20 +123,6 @@ a.text-black:hover, a.text-black:focus {
 
 .alert-danger {
   background-color: #b1a374;
-}
-
-.mbr-section-btn a.btn:not(.btn-form) {
-  border-radius: 100px;
-}
-
-.mbr-section-btn a.btn:not(.btn-form):hover, .mbr-section-btn a.btn:not(.btn-form):focus {
-  box-shadow: none !important;
-}
-
-.mbr-section-btn a.btn:not(.btn-form):hover, .mbr-section-btn a.btn:not(.btn-form):focus {
-  box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.2) !important;
-  -webkit-box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.2) !important;
-  text-shadow: none;
 }
 
 .mbr-gallery-filter li a {
@@ -380,70 +302,61 @@ html, body {
 
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
   .card-wrapper {
-    flex: auto!important;
+    flex: auto !important;
   }
 }
 
-.cid-rzqP1IkcYr {
-  background-image: url("../../../assets/images/stanford-bridge-own.jpg");
-  background-attachment: fixed;
-}
-
-.cid-rzqPNS5DdI {
+#about {
   padding-top: 0px;
   padding-bottom: 0px;
-  background-color: #232323;
+  background-color: var(--color-sand);
 }
 
-.cid-rzqPNS5DdI .testimonial-text {
+#about .testimonial-text {
   font-style: italic;
   font-weight: 300;
 }
 
-.cid-rzqPNS5DdI .mbr-author-name {
+#about .mbr-author-name {
   font-weight: bold;
 }
 
-.cid-rzqPNS5DdI .media-container-row {
+#about .media-container-row {
   word-wrap: break-word;
   word-break: break-word;
 }
 
 @media (max-width: 991px) {
-  .cid-rzqPNS5DdI .mbr-figure, .cid-rzqPNS5DdI img {
+  #about .mbr-figure, #about img {
     max-height: 300px;
     width: auto;
     margin: auto;
   }
-  .cid-rzqPNS5DdI .media-content {
+  #about .media-content {
     padding-top: 1.5rem !important;
   }
 }
 
-.cid-rzvHCJsoA7 {
+#projects_section {
   padding-top: 90px;
   padding-bottom: 90px;
   background-color: #efefef;
 }
 
-.cid-rzvHCJsoA7 .mbr-section-subtitle, .cid-rzvHCJsoA7 .mbr-text {
-  color: #767676;
-}
-
-.cid-rzvHCJsoA7 .card {
+#projects_section .card {
   display: -webkit-flex;
   position: relative;
   justify-content: center;
   -webkit-justify-content: center;
 }
 
-.cid-rzvHCJsoA7 .card-wrapper {
+#projects_section .card-wrapper {
   height: 100%;
   box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
   transition: box-shadow 0.3s;
 }
 
-.cid-rzvHCJsoA7 .card-wrapper .card-img {
+#projects_section .card-wrapper .card-img {
   display: -webkit-flex;
   flex-direction: column;
   align-items: center;
@@ -455,103 +368,47 @@ html, body {
   -webkit-flex-direction: column;
   -webkit-align-items: center;
   -webkit-justify-content: center;
-  cursor: pointer;
 }
 
-.cid-rzvHCJsoA7 .card-wrapper .card-img .overlay {
+#projects_section .card-wrapper .card-img .overlay {
   background-color: #ffffff;
   display: none;
   transition: opacity .3s;
 }
 
-.cid-rzvHCJsoA7 .card-wrapper .card-img img {
+#projects_section .card-wrapper .card-img img {
   width: 100%;
 }
 
-.cid-rzvHCJsoA7 .card-wrapper .card-box {
+#projects_section .card-wrapper .card-box {
   background-color: #ffffff;
   padding: 0 2rem 2rem 2rem;
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
 }
 
-.cid-rzvHCJsoA7 .card-wrapper .card-box h4 {
+#projects_section .card-wrapper .card-box h4 {
   font-weight: 500;
   margin-bottom: 0;
   padding-top: 2rem;
 }
 
-.cid-rzvHCJsoA7 .card-wrapper .card-box p {
+#projects_section .card-wrapper .card-box p {
   margin-bottom: 0;
   padding-top: 1.5rem;
 }
 
-.cid-rzvHCJsoA7 .card-wrapper:hover {
+#projects_section .card-wrapper:hover {
   box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.07);
 }
 
-.cid-rzvHCJsoA7 .card-img .overlay {
+#projects_section .card-img .overlay {
   display: block !important;
   opacity: 0;
 }
 
-.cid-rzvHCJsoA7 .card-img .mbr-section-btn {
+#projects_section .card-img .mbr-section-btn {
   opacity: 0;
-}
-
-.cid-rzv2TWW0WZ {
-  padding-top: 75px;
-  padding-bottom: 60px;
-  background-image: url("../../../assets/images/london-streets-own.jpg");
-}
-
-.cid-rzv2TWW0WZ .testimonials-container {
-  margin: 0 auto;
-}
-
-.cid-rzv2TWW0WZ .testimonials-container .testimonials-item {
-  justify-content: center;
-  margin-top: 3rem;
-  -webkit-justify-content: center;
-}
-
-.cid-rzv2TWW0WZ .testimonials-container .testimonials-item .user {
-  background: #ffffff;
-}
-
-.cid-rzv2TWW0WZ .testimonials-container .testimonials-item .user.row {
-  margin: 0;
-}
-
-.cid-rzv2TWW0WZ .testimonials-container .testimonials-item .user .user_image {
-  width: 150px;
-  height: 150px;
-  overflow: hidden;
-  margin: 2rem auto 2rem auto;
-}
-
-.cid-rzv2TWW0WZ .testimonials-container .testimonials-item .user .user_image img {
-  width: 100%;
-  min-width: 100%;
-  min-height: 100%;
-}
-
-.cid-rzv2TWW0WZ .testimonials-container .testimonials-item .user .testimonials-caption {
-  padding: 2rem;
-  padding: 2rem 2rem 2rem 0;
-}
-
-@media (max-width: 260px) {
-  .cid-rzv2TWW0WZ .user_image {
-    width: 100% !important;
-    height: auto !important;
-  }
-}
-
-@media (max-width: 767px) {
-  .cid-rzv2TWW0WZ .testimonials-caption {
-    padding: 0 2rem 2rem 2rem !important;
-  }
 }
 
 .footer .media-container-row {

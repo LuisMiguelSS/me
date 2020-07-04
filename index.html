@@ -21,11 +21,11 @@
 	<meta property="og:title" content="Luis Miguel Soto Sánchez's Portfolio" />
 	<meta property="og:type" content="website" />
 	<meta property="og:image" content="favicon/android-chrome-192x192.png" />
-	<meta property="og:url" content="https://luismiguelss.github.io/me" />
+	<meta property="og:url" content="https://luismiguelsoto.com" />
 	<meta property="og:description"
 		content="Personal portfolio of Luis Miguel Soto Sánchez collecting studies, experience as a software developer & student and documents such as CV and Certificates." />
 	<meta property="og:locale" content="en_EN" />
-	<meta property="og:site_name" content="luismiguelss" />
+	<meta property="og:site_name" content="luismiguelsoto" />
 	<meta property="fb:admins" content="luismisotosanchez" />
 
 	<!-- Favicon -->
@@ -52,7 +52,7 @@
 <body>
 
 	<!-- Header -->
-	<section>
+	<header>
 		<nav class="navbar navbar-expand-lg navbar-dropdown align-items-center navbar-fixed-top">
 
 			<!-- Menu Title -->
@@ -71,59 +71,54 @@
 			<!-- Navigation Menu -->
 			<div class="collapse navbar-collapse" id="navigationMenu">
 				<ul class="navbar-nav nav-dropdown ml-auto">
-					<li class="nav-item"><a class="nav-link link text-white lead" href="#about_section">About</a></li>
-					<li class="nav-item"><a class="nav-link link text-white lead" href="#projects_section">Projects</a>
+					<li class="nav-item"><a class="nav-link link lead" href="#about">About</a></li>
+					<li class="nav-item"><a class="nav-link link lead" href="#projects_section">Projects</a>
 					</li>
-					<li class="nav-item"><a class="nav-link link text-white lead" href="#contact_section">Contact</a>
+					<li class="nav-item"><a class="nav-link link lead" href="#contact_section">Contact</a>
 					</li>
 				</ul>
 
 				<!-- CV Download Button -->
 				<div class="navbar-buttons mbr-section-btn ml-auto" id="cvDownloadButton">
-					<a class="btn btn-sm btn-primary display-4" href="assets/files/EN-LuisMiguelSoto.pdf"
+					<a class="btn text-white" href="assets/files/CV-LuisMiguelSoto.pdf"
 						target="_blank"
 						rel="noreferrer">
-						<i class="fas fa-download"></i> Download my CV
+						Get my CV! <i class="fas fa-download"></i>
 					</a>
 				</div>
 
 			</div>
 		</nav>
 
-	</section>
+	</header>
 
 	<!-- Welcome Splash -->
-	<section class="cid-rzqP1IkcYr mbr-fullscreen mbr-parallax-background" id="welcomeSplash">
-		<div class="overlay" style="opacity: 0.5; background-color: rgb(35, 35, 35);"></div>
-
+	<section class="mbr-fullscreen mbr-parallax-background" id="welcomeSplash">
 		<div class="container">
 			<div class="row justify-content-center">
-				<div class="mbr-white col-md-10">
+				<div class="col-md-10">
 					<h1 class="section-title align-center pb-3 display-4">Welcome to my site!</h1>
 
-					<div class="mbr-section-btn align-center"><a class="btn btn-md bg-white display-4"
-							href="#testimonials_section">What they say about me</a></div>
+					<div class="align-center"><a class="btn btn-md display-4"
+						href="#about" id="welcomeAboutTo">About me! <i class="fas fa-arrow-right"></i></a>
+					</div>
 				</div>
 			</div>
-		</div>
-
-		<!-- Scroller Arrow -->
-		<div class="mbr-arrow hidden-sm-down" id="main-slider" aria-hidden="true">
-			<a href="#about_section"><i class="fas fa-arrow-down"></i></a>
 		</div>
 
 	</section>
 
 	<!-- About me Section -->
-	<section class="cid-rzqPNS5DdI" id="about_section">
+	<section id="about" class="text-space">
 		<div class="container" itemscope itemtype="http://schema.org/Person">
 			<div class="media-container-row">
 				<div class="mbr-figure pr-lg-5" style="width: 65%;">
 					<img src="assets/images/img-20190619-wa0078-1162x873.jpeg" alt="luismiguelss" title="me">
 				</div>
 
-				<div class="media-content px-3 align-self-center mbr-white py-2">
-					<h4>About</h4>
+				<div class="media-content px-3 align-self-center py-2">
+					<h3 class="section-title pb-3 align-center display-4">About</h3>
+					<hr />
 					<p class="mbr-text display-7 mt-4">
 						So... this is me!<br> I'm a multiplatform software developer located in the sunny province
 						of Cádiz, Spain.<br> I am a very autodidact person, basically because I think there's always
@@ -136,104 +131,144 @@
 					<p class="mbr-author-name pt-4 mb-2 display-7">
 						<span itemprop="name">Luis Miguel Soto Sánchez</span>
 					</p>
-					<p class="mbr-author-desc display-7">Software Dev. & ULM Pilot</p>
+					<p class="mbr-author-desc display-7">Developer</p>
 				</div>
 			</div>
 		</div>
 	</section>
 
 	<!-- Projects Section -->
-	<section class="popup-btn-cards cid-rzvHCJsoA7" id="projects_section">
-		<div class="container">
-			<h2 class="section-title pb-3 align-center display-3">My Involvement</h2>
-			<h3 class="mbr-section-subtitle display-5 align-center	mbr-light">These are some of my most recent
-				involvements,<br>including projects and volunteering!</h3>
-			<div class="media-container-row pt-5 ">
-				<div class="card m-3 col-12 col-md-6 col-lg-4">
-					<div class="card-wrapper ">
-						<div class="card-img">
-							<div class="overlay"></div>
-							<img src="assets/images/HomebirdsMusicFestival-logo.png" alt="Homebirds Music Festival"
-								title="The Homebirds Music Festival">
-						</div>
-						<div class="card-box">
-							<h4 class="card-title display-7">The Homebirds Music Festival</h4>
-							<h6 class="card-subtitle pt-2 text-muted">Internship</h6>
-							<p class="mbr-text align-left display-7">
-								The Homebirds Music Festival is an initiative of <a href="https://www.cry104fm.com/"
-									target="_blank">Cry104fm</a> located in Ireland. Its a
-								fundraising event that helps support organizations such as the <a
-									href="https://www.corkcancersupport.ie/" target="_blank">Cork ARC Cancer Support
-									House</a>
-								and <a href="http://parentstogether.ie/" target="_blank">Parents Together in Autism</a>.
-							</p>
-							<a href="http://homebirdsmusic.com/" class="btn btn-primary mx-auto display-4">View More</a>
-						</div>
+	<section id="projects_section">
+		<h2 class="section-title pb-3 align-center display-3">My Involvement</h2>
+		<h3 class="mbr-section-subtitle display-5 align-center font-weight-light">These are some of my most recent involvements,<br>including projects and volunteering!</h3>
+		<div class="card-deck pt-5 px-3">
+			
+			<!-- Reriid -->
+			<div class="card">
+				<div class="card-wrapper">
+					<div class="card-img">
+						<div class="overlay"></div>
+						<img src="assets/images/reriid-transparent.png" alt="Reriid" title="Reriid" />
+					</div>
+					<div class="card-box">
+						<h4 class="card-title display-7">Reriid</h4>
+						<h6 class="card-subtitle pt-2 text-muted">Final Degree Proyect</h6>
+						<p class="mbr-text align-left display-7">
+							Reriid is a project whose aim is to connect people nearby to exchange/sell any type of book.
+							It uses geolocation to display the closest posts to the user.
+							<br>
+							It is developed using <em>Ionic</em> and <em>Laravel</em> with <em>Websockets</em>, to incorporate a realtime chat functionality.
+							This project will continue to update during the following months.
+						</p>
 					</div>
 				</div>
-				<div class="card m-3 col-12 col-md-6 col-lg-4">
-					<div class="card-wrapper">
-						<div class="card-img">
-							<div class="overlay"></div>
-							<img src="assets/images/frikeatelogo-360x235.png" alt="Frikeate!" title="Frikeate!">
-						</div>
-						<div class="card-box">
-							<h4 class="card-title display-7">Frikeate!</h4>
-							<h6 class="card-subtitle pt-2 text-muted">Volunteering</h6>
-							<p class="mbr-text display-7">
-								Frikéate! was an online store dedicated to the selling of various types of products
-								related to the manga and anime world.
-							</p>
-						</div>
-					</div>
-				</div>
-				<div class="card m-3 col-12 col-md-6 col-lg-4">
-					<div class="card-wrapper">
-						<div class="card-img">
-							<div class="overlay"></div>
-							<img src="assets/images/TheSWAPIApp.png" alt="The SWAPI App" title="The SWAPI App">
-						</div>
-						<div class="card-box ">
-							<h4 class="card-title display-7">The SWAPI APP!</h4>
-							<h6 class="card-subtitle pt-2 text-muted">Job Appliance</h6>
-							<p class="mbr-text display-7">
-								The SWAPI App consists of a simple user-friendly web app whose aim
-								as to gather some information about StarWars characters, films and more using Json and
-								the <a href="https://swapi.co/" target="_blank">swapi</a> API.
-							</p>
-							<a href="https://github.com/LuisMiguelSS/the-swapi-app"
-								class="btn btn-primary display-4">View More</a>
-						</div>
-					</div>
+
+				<div class="card-footer text-muted">
+					View
+					<a href="https://github.com/luismiguelss/reriid-ionic-frontend"> frontend </a>
+					or
+					<a href="https://github.com/luismiguelss/reriid-laravel-backend"> backend</a>
 				</div>
 			</div>
+
+			<!-- The Homebirds Music Festival -->
+			<div class="card">
+				<div class="card-wrapper">
+					<div class="card-img">
+						<div class="overlay"></div>
+						<img src="assets/images/HomebirdsMusicFestival-logo.png" alt="The Homebirds Music Festival" title="The Homebirds Music Festival">
+					</div>
+					<div class="card-box ">
+						<h4 class="card-title display-7">The Homebirds Music Festival</h4>
+						<h6 class="card-subtitle pt-2 text-muted">Internship</h6>
+						<p class="mbr-text display-7">
+							The Homebirds Music Festival is an initiative of <a href="https://www.cry104fm.com/"
+								target="_blank">Cry104fm</a> located in Ireland. Its a
+							fundraising event that helps support organizations such as the <a
+								href="https://www.corkcancersupport.ie/" target="_blank">Cork ARC Cancer Support
+								House</a>
+							and <a href="http://parentstogether.ie/" target="_blank">Parents Together in Autism</a>.
+						</p>
+					</div>
+				</div>
+
+				<div class="card-footer text-muted">
+					<a href="http://homebirdsmusic.com/">View more</a>
+				</div>
+			</div>
+
+			<!-- Frikeate! -->
+			<div class="card">
+				<div class="card-wrapper">
+					<div class="card-img">
+						<div class="overlay"></div>
+						<img src="assets/images/frikeatelogo-360x235.png" alt="Frikeate" title="Frikeate">
+					</div>
+					<div class="card-box ">
+						<h4 class="card-title display-7">Frikéate!</h4>
+						<h6 class="card-subtitle pt-2 text-muted">Volunteering</h6>
+						<p class="mbr-text display-7"><em>Frikéate!</em> was an online store dedicated to the selling of various types of products
+							related to the manga and anime world as well as reporting the latest news about videogames and comics.</p>
+						</p>
+					</div>
+				</div>
+				<div class="card-footer text-muted">
+					No viewable content available.
+				</div>
+			</div>
+
+			<!-- The SWAPI APP -->
+			<div class="card">
+				<div class="card-wrapper">
+					<div class="card-img">
+						<div class="overlay"></div>
+						<img src="assets/images/TheSWAPIApp.png" alt="The SWAPI App" title="The SWAPI App">
+					</div>
+					<div class="card-box ">
+						<h4 class="card-title display-7">The SWAPI APP!</h4>
+						<h6 class="card-subtitle pt-2 text-muted">Job Appliance</h6>
+						<p class="mbr-text display-7">
+							The SWAPI App consists of a simple user-friendly web app whose aim
+							as to gather some information about StarWars characters, films and more using Json and
+							the <a href="https://swapi.co/" target="_blank">swapi</a> API.
+						</p>
+					</div>
+				</div>
+				<div class="card-footer text-muted">
+					<a href="https://github.com/LuisMiguelSS/the-swapi-app">View more</a>
+				</div>
+			</div>
+
 		</div>
 	</section>
 
 	<!-- Reference -->
-	<section class="cid-rzv2TWW0WZ" id="testimonials_section">
-		<div class="overlay" style="opacity: 0.5; background-color: rgb(35, 35, 35);"></div>
+	<section id="references">
 		<div class="container">
-			<h2 class="pb-3	mbr-white align-center display-4">WHAT THEY SAY ABOUT ME</h2>
-			<div class="col-md-10 testimonials-container">
-				<div class="testimonials-item">
-					<div class="user row">
-						<div class="col-lg-3 col-md-4">
-							<div class="user_image">
-								<img src="assets/images/darraghparker-manager-at-cry104fm-243x259.jpg" alt="" title="">
-							</div>
-						</div>
-						<div class="testimonials-caption col-lg-9 col-md-8">
-							<div class="user_text ">
-								<p class=" display-7"><em>"He showed a fantastic knowledge of technology and proved to
-										be a quick and innovative learner when assigned a task...a great team player who
-										also worked well on his own initiative and delivered all work assigned to him in
-										a timely and efficient manner. A well-rounded decent honest guy, he will be an
-										asset to whomever he works with..."</em></p>
+			<h2 class="pb-3	mbr-white align-center display-4 blend">WHAT THEY SAY ABOUT ME</h2>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="carousel slide" data-ride="carousel" id="quote-carousel">
 
-								<!-- PDF modal -->
-								<a href="" data-toggle="modal" data-target="#pdfViewer">View more...</a>
+						<!-- Carousel Indicators -->
+						<ol class="carousel-indicators">
+							<li data-target="#quote-carousel" data-slide-to="0" class="active"></li>
+						</ol>
 
+						<!-- Carousel Quotes -->
+						<div class="carousel-inner text-center">
+							<!-- Quote 1 -->
+							<div class="carousel-item active">
+								<blockquote>
+									<div class="row">
+										<div class="col-sm-8 col-sm-offset-2">
+											<!-- Quote and PDF modal -->
+											<p class="pr-1 blend">He showed a fantastic knowledge of technology and proved to be a quick and innovative learner when assigned a task...a great team player who also worked well on his own initiative and delivered all work assigned to him in a timely and efficient manner. A well-rounded decent honest guy, he will be an asset to whomever he works with... (<a href="" data-toggle="modal" data-target="#pdfViewer">see more</a>)</p>
+											<img class="rounded-circle img-fluid img-thumbnail" src="assets/images/darraghparker-manager-at-cry104fm-243x259.jpg" alt="Picture" title="Darragh Parker">
+											<small class="blend">Darragh Parker, Cry104fm Station Manager</small>
+										</div>
+									</div>
+								</blockquote>
 								<!-- PDF Viewer -->
 								<div class="modal fade" id="pdfViewer" role="dialog">
 									<div class="modal-dialog modal-lg h-100">
@@ -260,127 +295,132 @@
 										</div>
 									</div>
 								</div>
-
 							</div>
-							<div class="user_name mbr-bold	align-left pt-3 display-7">Darragh Parker</div>
-							<div class="user_desk mbr-light	align-left pt-2 display-7">Cry104fm Station Manager</div>
 						</div>
+	
+						<!-- Carousel Buttons Next/Prev -->
+						<a class="carousel-control-prev" href="#quote-carousel" role="button" data-slide="prev">
+							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+							<span class="sr-only">Previous</span>
+						</a>
+						<a class="carousel-control-next" href="#quote-carousel" role="button" data-slide="next">
+							<span class="carousel-control-next-icon" aria-hidden="true"></span>
+							<span class="sr-only">Next</span>
+						</a>
 					</div>
 				</div>
 			</div>
 		</div>
+
 	</section>
 
-	<!-- Contact -->
-	<section class="mbr-section py-5 bg-white" id="contact_section">
-		<div class="container">
-			<div class="row justify-content-center">
-				<div class="title col-12 col-lg-8">
-					<h2 class="section-title align-center pb-3 display-4">LET'S HAVE A COFFE!</h2>
-					<h4 class="align-center pb-3" style="font-weight: 300; line-height: 1.3em;">
-						Email me at <strong>luismiguelsoto@jerez.es</strong>, give me a call at<br><strong>(+34) 681 32
-							26 21</strong> or fill in this form!
-					</h4>
+	<div class="space-background-flipped">
+		<!-- Contact -->
+		<section class="mbr-section py-5" id="contact_section">
+			<div class="container">
+				<div class="row justify-content-center blend">
+					<div class="title col-12 col-lg-8">
+						<h2 class="section-title align-center pb-3 display-4">LET'S HAVE A COFFE!</h2>
+						<h4 class="align-center pb-3" style="font-weight: 300; line-height: 1.3em;">
+							Email me at <strong>luismiguelsoto@jerez.es</strong>, call me at<br><strong>(+34) 681 32
+								26 21</strong> or fill in this form!
+						</h4>
+					</div>
 				</div>
 			</div>
-		</div>
-		<div class="container">
-			<div class="row justify-content-center">
-				<div class="media-container-column col-lg-8" data-form-type="formoid">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="media-container-column col-lg-8" data-form-type="formoid">
 
-					<!-- Form -->
-					<form action="https://mobirise.com/" method="POST" class="mbr-form form-with-styler"
-						data-form-title="Form">
-						<input type="hidden" name="email" data-form-email="true"
-							value="F+iPBAoZWQvMYNlt/5T6865DKZhbTBl772iUZfM4D/hi+fK2bN9zzZ33haIgOWOh0QvxaEeGmTGTiZCzC1Hiv+5oE8ShCbus971uvCh4bSPfL9nnsY+SrvB242QRbTPy">
-						<div class="row">
-							<div hidden="hidden" data-form-alert="" class="alert alert-success col-12">Thanks for
-								contacting me!</div>
-							<div hidden="hidden" data-form-alert-danger="" class="alert alert-danger col-12"></div>
-						</div>
-						<div class="row">
-							<div class="col-md-4 form-group" data-for="name">
-								<label for="name-contact_section" class="form-control-label	display-7">Name</label>
-								<input type="text" name="name" data-form-field="Name" required="required"
-									class="form-control display-7" placeholder="Linus Torvalds"
-									id="name-contact_section">
+						<!-- Form -->
+						<form action="https://mobirise.com/" method="POST" class="mbr-form form-with-styler"
+							data-form-title="Form">
+							<input type="hidden" name="email" data-form-email="true"
+								value="F+iPBAoZWQvMYNlt/5T6865DKZhbTBl772iUZfM4D/hi+fK2bN9zzZ33haIgOWOh0QvxaEeGmTGTiZCzC1Hiv+5oE8ShCbus971uvCh4bSPfL9nnsY+SrvB242QRbTPy">
+							<div class="row">
+								<div hidden="hidden" data-form-alert="" class="alert alert-success col-12">Thanks for
+									contacting me!</div>
+								<div hidden="hidden" data-form-alert-danger="" class="alert alert-danger col-12"></div>
 							</div>
-							<div class="col-md-4 form-group" data-for="email">
-								<label for="email-contact_section" class="form-control-label	display-7">Email</label>
-								<input type="email" name="email" data-form-field="Email" required="required"
-									class="form-control display-7" placeholder="your@email.here"
-									id="email-contact_section">
+							<div class="row">
+								<div class="col-md-4 form-group" data-for="name">
+									<label for="name-contact_section" class="form-control-label	display-7">Name</label>
+									<input type="text" name="name" data-form-field="Name" required="required"
+										class="form-control display-7" placeholder="Linus Torvalds"
+										id="name-contact_section">
+								</div>
+								<div class="col-md-4 form-group" data-for="email">
+									<label for="email-contact_section" class="form-control-label	display-7">Email</label>
+									<input type="email" name="email" data-form-field="Email" required="required"
+										class="form-control display-7" placeholder="your@email.here"
+										id="email-contact_section">
+								</div>
+								<div data-for="message" class="col-md-12 form-group">
+									<label for="message-contact_section"
+										class="form-control-label	display-7">Message</label>
+									<textarea name="message" data-form-field="Message" class="form-control display-7"
+										placeholder="Hello Luis,&#10;I was wondering..."
+										id="message-contact_section"></textarea>
+								</div>
+								<div class="col-md-12 input-group-btn align-center"><button type="submit"
+										class=" bg-primary text-white clicky"><i
+											class="fas fa-paper-plane"></i>SEND</button></div>
 							</div>
-							<div data-for="message" class="col-md-12 form-group">
-								<label for="message-contact_section"
-									class="form-control-label	display-7">Message</label>
-								<textarea name="message" data-form-field="Message" class="form-control display-7"
-									placeholder="Hello Luis,&#10;I was wondering..."
-									id="message-contact_section"></textarea>
-							</div>
-							<div class="col-md-12 input-group-btn align-center"><button type="submit"
-									class=" bg-primary text-white clicky"><i
-										class="fas fa-paper-plane"></i>SEND</button></div>
-						</div>
-					</form>
+						</form>
+					</div>
 				</div>
 			</div>
-		</div>
-	</section>
+		</section>
 
-	<!-- Footer -->
-	<section class="footer py-3">
-		<div class="container">
-			<div class="media-container-row align-center text-info">
-				<div class="row">
-					<ul class="foot-menu">
-						<li class="foot-menu-item display-7"><a href="#about_section"><strong>About</strong></a></li>
-						<li class="foot-menu-item display-7"><a href="#projects_section"><strong>Projects</strong></a>
-						</li>
-						<!-- Unused
-						<li class="foot-menu-item display-7"><a href="#studies_section"><strong>Studies</strong></a>
-						</li>
-						-->
-						<li class="foot-menu-item display-7"><a href="#contact_section"><strong>Contact</strong></a>
-						</li>
-					</ul>
-				</div>
+		<!-- Footer -->
+		<section class="footer py-3">
+			<div class="container">
+				<div class="media-container-row align-center text-info">
+					<div class="row">
+						<ul class="foot-menu">
+							<li class="foot-menu-item display-7"><a href="#about"><strong>About</strong></a></li>
+							<li class="foot-menu-item display-7"><a href="#projects_section"><strong>Projects</strong></a></li>
+							<li class="foot-menu-item display-7"><a href="#contact_section"><strong>Contact</strong></a></li>
+						</ul>
+					</div>
 
-				<!-- Social Media -->
-				<div class="row">
-					<a class="p-3" href="https://github.com/luismiguelss" target="_blank">
-						<i class="fab fa-github fa-lg"></i>
-					</a>
-					<a class="p-3" href="https://bitbucket.org/LuisMiguelSS/" target="_blank">
-						<i class="fab fa-bitbucket fa-lg"></i>
-					</a>
-					<a class="p-3" href="https://stackoverflow.com/users/7855861/luismiguelss" target="_blank">
-						<i class="fab fa-stack-overflow fa-lg"></i>
-					</a>
-					<a class="p-3" href="https://linkedin.com/in/luismiguelss" target="_blank">
-						<i class="fab fa-linkedin fa-lg"></i>
-					</a>
-					<a class="p-3" href="https://app.chime.aws" target="_blank">
-						<i class="fab fa-amazon fa-lg"></i>
-					</a>
-					<a class="p-3" href="skype:luismiguelsoto?call">
-						<i class="fab fa-skype fa-lg"></i>
-					</a>
-					<a class="p-3" href="https://instagram.com/luismisotosanchez" target="_blank">
-						<i class="fab fa-instagram fa-lg"></i>
-					</a>
-					<a class="p-3" href="https://facebook.com/luismisotosanchez" target="_blank">
-						<i class="fab fa-facebook fa-lg"></i>
-					</a>
-				</div>
-				<div class="row">
-					<p class="w-100 mb-0 text-white align-center display-7">© Copyright 2019 Luis Miguel Soto Sánchez |
-						Based on mobirise
-					</p>
+					<!-- Social Media -->
+					<div class="row">
+						<a class="p-3" href="https://github.com/luismiguelss" target="_blank">
+							<i class="fab fa-github fa-lg"></i>
+						</a>
+						<a class="p-3" href="https://bitbucket.org/LuisMiguelSS/" target="_blank">
+							<i class="fab fa-bitbucket fa-lg"></i>
+						</a>
+						<a class="p-3" href="https://stackoverflow.com/users/7855861/luismiguelss" target="_blank">
+							<i class="fab fa-stack-overflow fa-lg"></i>
+						</a>
+						<a class="p-3" href="https://linkedin.com/in/luismiguelss" target="_blank">
+							<i class="fab fa-linkedin fa-lg"></i>
+						</a>
+						<a class="p-3" href="https://app.chime.aws" target="_blank">
+							<i class="fab fa-amazon fa-lg"></i>
+						</a>
+						<a class="p-3" href="skype:luismiguelsoto?call">
+							<i class="fab fa-skype fa-lg"></i>
+						</a>
+						<a class="p-3" href="https://instagram.com/luismisotosanchez" target="_blank">
+							<i class="fab fa-instagram fa-lg"></i>
+						</a>
+						<a class="p-3" href="https://twitter.com/luismiguelssg" target="_blank">
+							<i class="fab fa-twitter fa-lg"></i>
+						</a>
+						<a class="p-3" href="https://facebook.com/luismisotosanchez" target="_blank">
+							<i class="fab fa-facebook fa-lg"></i>
+						</a>
+					</div>
+					<div class="row">
+						<p class="w-100 mb-0 text-white align-center display-7">© Copyright 2020 Luis Miguel Soto Sánchez</p>
+					</div>
 				</div>
 			</div>
-		</div>
-	</section>
+		</section>
+	</div>
 
 	<!-- Scripts -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>

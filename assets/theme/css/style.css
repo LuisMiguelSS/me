@@ -8,8 +8,32 @@
 		Luis Miguel Soto Sánchez's section
  */
 :root {
-  --green-jda: rgb(16, 131, 64);
+  --dark-grey-own: #282828;
+  --color-space: #112938;
+  --color-sand: #e0ebcf;
 }
+
+/* Colors */
+.bg-space {
+  background-color: var(--color-space);
+}
+.bg-sand {
+  background-color: var(--color-sand);
+}
+.blend {
+  color: var(--color-sand);
+  mix-blend-mode: difference;
+}
+
+/* Text */
+.text-sand {
+  color: var(--color-sand) !important;
+}
+
+.text-space {
+  color: var(--color-space) !important;
+}
+
 /* Small separation for fontawesome icons */
 html,
 body {
@@ -21,10 +45,33 @@ body {
 .section-title {
   font-style: normal;
   line-height: 1.2;
-  text-shadow: 1px 2px #000;
+}
+section#projects_section {
+  background-color: var(--color-sand);
+}
+section#references {
+  background-color: var(--color-sand);
+}
+
+#welcomeSplash {
+  color: white;
+  background-image: url("../../../assets/images/background.png");
+}
+
+section#welcomeSplash h1 {
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
 }
 
 /* Nav */
+#navigationMenu a:not(.btn) {
+  color: #fafafa;
+  opacity: .7;
+  transition: all .2s;
+}
+#navigationMenu a:hover,
+#navigationMenu a:active {
+  opacity: 1;
+}
 
 /* Welcome Section */
 #main-slider a {
@@ -36,6 +83,53 @@ body {
   }
 }
 
+#welcomeAboutTo {
+  background: transparent;
+  color: #fff;
+  border-top: 3px solid #fff;
+  border-bottom: 3px solid #fff;
+}
+
+/* Testimonials Section */
+#quote-carousel {
+  padding: 0 10px 30px 10px;
+  margin-top: 30px;
+}
+
+#quote-carousel .carousel-control {
+  background: none;
+  color: #CACACA;
+  font-size: 2.3em;
+  text-shadow: none;
+  margin-top: 30px;
+}
+.carousel-item blockquote {
+  border-left: none;
+}
+.carousel-item blockquote div {
+  margin: 0 auto;
+}
+
+.carousel-item blockquote p:before {
+  content: "\f10d";
+  font-family: 'Fontawesome';
+  float: left;
+  margin-right: 10px;
+}
+.carousel-item blockquote p:after {
+  content: "\f10e";
+  font-family: 'Fontawesome';
+  float: right;
+  margin-left: 10px;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(100%);
+}
+.carousel-item img {
+  width: 65px;
+}
+
 /* Font Awesome Icons (Nav + Others) */
 #cvDownloadButton span,
 form i.fas {
@@ -43,14 +137,11 @@ form i.fas {
   padding-right: 5px;
 }
 
-/* Footer */
+.space-background-flipped {
+  background-image: url("../../../assets/images/background-flipped.png");
+}
 
-.footer {
-  background-color: #2e2e2e;
-}
-section {
-  background-color: #eeeeee;
-}
+/* Footer */
 
 section,
 .container,
@@ -102,6 +193,7 @@ strong {
 
 body {
   position: relative;
+  color: #767676;
 }
 
 section {
@@ -110,11 +202,7 @@ section {
   background-size: cover;
 }
 
-/*! Base colors */
-.mbr-white {
-  color: #ffffff;
-}
-
+/* Base colors */
 .bg-white {
   background-color: #ffffff;
 }
@@ -170,15 +258,6 @@ section {
   .section-title {
     text-align: center;
   }
-}
-
-/*! Font-weight	*/
-.mbr-light {
-  font-weight: 300;
-}
-
-.mbr-bold {
-  font-weight: 700;
 }
 
 /* Media	*/
@@ -248,11 +327,13 @@ section {
 }
 
 .card {
-  background-color: transparent;
+  background-color: var(--color-space) !important;
+  color: white;
   border: none;
 }
 
 .card-box {
+  background-color: var(--color-space) !important;
   width: 100%;
 }
 
@@ -261,7 +342,6 @@ section {
   max-height: 200px;
   flex-shrink: 0;
   -webkit-flex-shrink: 0;
-  background-color: rgba(255, 255, 255, 0.3);
   text-align: center;
 }
 .card-img img {
@@ -423,12 +503,6 @@ nav .mbr-section-btn {
   margin: 0 !important;
 }
 
-.row {
-  display: -webkit-flex;
-  -webkit-flex-wrap: wrap;
-  flex-wrap: wrap;
-}
-
 .justify-content-center {
   -webkit-justify-content: center;
   justify-content: center;
@@ -437,4 +511,10 @@ nav .mbr-section-btn {
 .card-wrapper {
   -webkit-flex: 1;
   flex: 1;
+}
+
+.card-deck {
+  display: grid !important;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  grid-gap: .5rem;
 }
