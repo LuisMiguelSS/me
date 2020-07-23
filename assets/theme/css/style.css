@@ -313,6 +313,14 @@ section {
 }
 
 @media (min-width: 992px) {
+
+  .pdfViewer > div,
+  .pdfViewer > div > div,
+  .pdfViewer > div > div > div,
+  .pdfViewer > div > div > div > object {
+    height: 100% !important;
+  }
+
   .media-container-row {
     -webkit-flex-wrap: nowrap;
     -ms-flex-wrap: nowrap;
