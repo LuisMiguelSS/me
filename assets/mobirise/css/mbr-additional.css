@@ -312,6 +312,11 @@ html, body {
   background-color: var(--color-sand);
 }
 
+#about img {
+  float: right;
+  width: 75%;
+}
+
 #about .testimonial-text {
   font-style: italic;
   font-weight: 300;
@@ -331,6 +336,9 @@ html, body {
     max-height: 300px;
     width: auto;
     margin: auto;
+  }
+  #about img {
+    float: none;
   }
   #about .media-content {
     padding-top: 1.5rem !important;
