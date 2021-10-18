@@ -62,7 +62,7 @@ section#references {
 
 #welcomeSplash {
   color: white;
-  background-image: url("../../../assets/images/background.png");
+  background-image: url("../../../assets/images/background.webp");
 }
 
 section#welcomeSplash h1 {
@@ -145,7 +145,7 @@ form i.fas {
 }
 
 .space-background-flipped {
-  background-image: url("../../../assets/images/background-flipped.png");
+  background-image: url("../../../assets/images/background-flipped.webp");
 }
 
 /* Footer */
