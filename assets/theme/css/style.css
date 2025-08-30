@@ -1,7 +1,7 @@
 /*
  * Mobirise v4 theme (https://mobirise.com/)
  * Copyright 2017 Mobirise
- * Modified by @LuisMiguelSS (github.com/luismiguelss) 2019-2021
+ * Modified by @LuisMiguelSS (github.com/luismiguelss)
  */
 
 /*
@@ -342,13 +342,11 @@ section {
 }
 
 .card {
-  background-color: var(--color-space) !important;
-  color: white;
+  background-color: #F5F5F5;
   border: none;
 }
 
 .card-box {
-  background-color: var(--color-space) !important;
   width: 100%;
 }
 
